@@ -1,0 +1,10 @@
+{
+  "header": {
+    "enable": true,
+    "logoColor": "text",
+    "accentColor": "customMessageLabel"
+  },
+  "frame": {
+    "borderColor": "customMessageLabel"
+  }
+}

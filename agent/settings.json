@@ -1,0 +1,27 @@
+{
+  "lastChangelogVersion": "0.82.1",
+  "theme": "dark",
+  "defaultProvider": "opencode",
+  "defaultModel": "deepseek-v4-flash-free",
+  "packages": [
+    "npm:pi-mono-btw",
+    "npm:pi-mono-clear",
+    "npm:pi-mono-ask-user-question",
+    "npm:pi-mono-context",
+    "npm:pi-mono-context-guard",
+    "npm:pi-mono-usage",
+    "npm:pi-mono-web-search",
+    "npm:pi-rtk-optimizer",
+    "extensions/init-agents.ts",
+    "git:github.com/leo-alvarenga/pi-mode-manager",
+    "git:github.com/leo-alvarenga/zen-editor"
+  ],
+  "editorPaddingX": 1,
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "enableInstallTelemetry": false,
+  "defaultThinkingLevel": "high",
+  "hideThinkingBlock": false,
+  "quietStartup": true
+}

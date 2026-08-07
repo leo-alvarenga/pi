@@ -1,0 +1,7 @@
+**/node_modules
+
+**/*.log
+
+# Security — never commit credentials or session data
+agent/auth.json
+agent/sessions/
