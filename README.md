@@ -1,19 +1,19 @@
-# pi-agent
+# pi
 
-My personal [pi](https://github.com/badlogic/pi-mono) setup used at work and for personal projects.
+My personal [pi](https://github.com/earendil-works/pi) coding-agent setup, used at work and for personal projects.
 
 ## Requirements
 
-- [pi coding agent](https://github.com/badlogic/pi-mono)
-- Node.js + npm (for the package dependencies)
+- [pi coding agent](https://github.com/earendil-works/pi)
+- Node.js + npm (for the npm package dependencies)
 
 ## Setup
 
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/leo-alvarenga/pi-agent.git
-   cd pi-agent
+   git clone https://github.com/leo-alvarenga/pi.git
+   cd pi
    ```
 
 2. Link (or copy) the config into your pi home directory:
@@ -30,35 +30,53 @@ My personal [pi](https://github.com/badlogic/pi-mono) setup used at work and for
    cd agent/npm && npm install
    ```
 
-4. Restart pi. The mode extension, theme, and settings are picked up on startup.
+4. Restart pi — packages, extensions, agents, theme, and settings are picked up on startup.
 
-## Theme: Kanagawa
+## Layout
 
-`agent/themes/kanagawa.json`: a custom theme based on the [Kanagawa](https://github.com/rebelot/kanagawa.nvim) color palette (dark, warm neutrals with blue/teal accents)
+| Path                                    | Purpose                                       |
+| --------------------------------------- | --------------------------------------------- |
+| `agent/settings.json`                   | Global settings + `packages` list             |
+| `agent/custom-agents/*.md`              | Custom agents (loaded by pi-agent-manager)    |
+| `agent/themes/everforest.json`          | Active theme                                  |
+| `agent/themes/kanagawa.json`            | Alternative theme                             |
+| `agent/extensions/init-agents.ts`       | Adds the `/init` command (AGENTS.md)          |
+| `agent/extensions/pi-rtk-optimizer/`    | Tool-output compaction config                 |
+| `agent/pi-zen-frame.json`               | pi-zen-frame (TUI header/frame) config        |
+| `agent/npm/package.json`                | npm package dependencies                      |
 
-To use it:
+## Agents
 
-```bash
-cp agent/themes/kanagawa.json ~/.pi/agent/themes/
-```
+`pi-agent-manager` provides the built-in `plan` (read + web, approve before any write/exec) and `build` (read + write, no web) agents, plus custom agents defined in `agent/custom-agents/`:
 
-Then set `"theme": "kanagawa"` in `~/.pi/agent/settings.json`.
+| Agent        | Permissions             | Icon | Color                | What it does                              |
+| ------------ | ----------------------- | ---- | -------------------- | ----------------------------------------- |
+| `codebase`   | `read`                  | ◈    | `customMessageLabel` | Read-only codebase Q&A, no web access     |
+| `expert`     | `read`, `web`           | ✦    | `accent`             | General-knowledge Q&A, no commands        |
+| `code-audit` | `read`, `web`, `write`  | ▲    | `error`              | Systematic code review, may run tools     |
+| `guide`      | `read`, `web`, `ask`    | ▷    | `success`            | Plan-style: approves before any edit/exec |
 
-## Packages
+Switch with `/agents <name>` (or `/agents` for the picker).
 
-All packages used in this setup are listed under `packages` key in `agent/settings.json`.
+## Theme: Everforest (default)
 
-## Modes
+`agent/themes/everforest.json` — a custom theme based on the [Everforest](https://github.com/sainnhe/everforest) palette (warm greens/grays).
 
-Custom agent modes for the [pi-mode-manager](https://github.com/leo-alvarenga/pi-mode-manager) extension, defined in `agent/pi-mode-manager.json`:
+`agent/themes/kanagawa.json` — alternative based on [Kanagawa](https://github.com/rebelot/kanagawa.nvim) (dark warm neutrals with blue/teal accents). To switch themes, set `"theme": "kanagawa"` in `~/.pi/agent/settings.json`.
 
-| Mode         | Permissions            | Color token          | What it does                          |
-| ------------ | ---------------------- | -------------------- | ------------------------------------- |
-| `codebase`   | `read`                 | `customMessageLabel` | Read-only codebase Q&A, no web access |
-| `expert`     | `read`, `web`          | `accent`             | General knowledge Q&A, no commands    |
-| `code-audit` | `read`, `web`, `write` | `error`              | Systematic code review, may run tools |
+## Extensions & packages
 
-Switch with `/mode codebase`, `/mode expert`, or `/mode code-audit`.
+All packages are listed under `packages` in `agent/settings.json`:
+
+- **pi-agent-manager** — `/agents` agent picker, hard tool guard per agent
+- **pi-zen-frame** — Vim-style TUI editor wrapped in a frame/header
+- **pi-subagents** — subagent workflows
+- **pi-web-access** — web search/fetch tools
+- **pi-rtk-optimizer** — token-saving compaction of tool output
+- **pi-mono-\*** (btw, clear, ask-user-question, context, context-guard, usage) — UI and context helpers
+- **extensions/init-agents.ts** — local extension adding `/init`
+
+Other notable settings: `defaultProvider: opencode`, `defaultModel: deepseek-v4-flash-free`, `theme: everforest`, fullscreen TUI.
 
 ## License
 
