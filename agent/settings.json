@@ -1,6 +1,6 @@
 {
-  "lastChangelogVersion": "0.82.1",
-  "theme": "dark",
+  "lastChangelogVersion": "0.84.0",
+  "theme": "everforest",
   "defaultProvider": "opencode",
   "defaultModel": "deepseek-v4-flash-free",
   "packages": [
@@ -10,11 +10,12 @@
     "npm:pi-mono-context",
     "npm:pi-mono-context-guard",
     "npm:pi-mono-usage",
-    "npm:pi-mono-web-search",
     "npm:pi-rtk-optimizer",
     "extensions/init-agents.ts",
-    "git:github.com/leo-alvarenga/pi-mode-manager",
-    "git:github.com/leo-alvarenga/zen-editor"
+    "git:github.com/leo-alvarenga/pi-zen-frame",
+    "npm:pi-subagents",
+    "npm:pi-web-access",
+    "git:github.com/leo-alvarenga/pi-agent-manager"
   ],
   "editorPaddingX": 1,
   "terminal": {
@@ -23,5 +24,6 @@
   "enableInstallTelemetry": false,
   "defaultThinkingLevel": "high",
   "hideThinkingBlock": false,
-  "quietStartup": true
+  "quietStartup": true,
+  "tuiMode": "fullscreen"
 }
