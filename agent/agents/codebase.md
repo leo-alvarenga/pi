@@ -1,7 +1,7 @@
 ---
 description: "Codebase Q&A: answers questions about the project — read-only, no web, no commands"
 permissions: [read]
-icon: ◈
+icon: " "
 color: customMessageLabel
 type: primary
 ---

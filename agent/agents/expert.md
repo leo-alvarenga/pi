@@ -1,7 +1,7 @@
 ---
 description: "General knowledge Q&A: objective, concise answers — read + web, no commands"
 permissions: [read, web]
-icon: ✦
+icon: " "
 color: accent
 type: primary
 ---

@@ -1,7 +1,7 @@
 ---
 description: "Code review: systematic audit of security, performance, architecture, and best practices"
 permissions: [read, web, write]
-icon: ▲
+icon: " "
 color: error
 type: primary
 ---

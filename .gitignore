@@ -8,3 +8,6 @@ agent/sessions/
 
 # Regenerated model catalog cache — large, noisy diff on every provider fetch
 agent/models-store.json
+web-search-cache
+run-history*
+**/models.json

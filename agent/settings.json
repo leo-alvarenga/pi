@@ -1,8 +1,8 @@
 {
   "lastChangelogVersion": "0.84.0",
   "theme": "everforest",
-  "defaultProvider": "opencode",
-  "defaultModel": "deepseek-v4-flash-free",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "deepseek-v4-pro",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
@@ -12,10 +12,9 @@
     "npm:pi-mono-usage",
     "npm:pi-rtk-optimizer",
     "extensions/init-agents.ts",
-    "npm:pi-subagents",
     "npm:pi-web-access",
-    "git:github.com/leo-alvarenga/pi-agent-manager",
-    "git:github.com/leo-alvarenga/pi-zen-frame"
+    "git:github.com/leo-alvarenga/pi-zen-frame",
+    "git:github.com/leo-alvarenga/pi-agent-manager"
   ],
   "editorPaddingX": 1,
   "terminal": {
