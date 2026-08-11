@@ -1,8 +1,15 @@
 ---
 description: "Code review: systematic audit of security, performance, architecture, and best practices"
-permissions: [read, web, write]
-icon: " "
-color: error
+permissions:
+  "*": deny
+  read: allow
+  grep: allow
+  glob: allow
+  list: allow
+  websearch: allow
+  webfetch: allow
+icon: "󰱼"
+color: warning
 type: primary
 ---
 

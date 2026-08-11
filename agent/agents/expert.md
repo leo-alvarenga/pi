@@ -1,8 +1,15 @@
 ---
 description: "General knowledge Q&A: objective, concise answers — read + web, no commands"
-permissions: [read, web]
-icon: " "
-color: accent
+permissions:
+  "*": deny
+  read: allow
+  grep: allow
+  glob: allow
+  list: allow
+  websearch: allow
+  webfetch: allow
+icon: "󰌱"
+color: borderAccent
 type: primary
 ---
 
