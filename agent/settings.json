@@ -12,10 +12,10 @@
     "npm:pi-mono-usage",
     "npm:pi-rtk-optimizer",
     "extensions/init-agents.ts",
-    "git:github.com/leo-alvarenga/pi-zen-frame",
     "npm:pi-subagents",
     "npm:pi-web-access",
-    "git:github.com/leo-alvarenga/pi-agent-manager"
+    "git:github.com/leo-alvarenga/pi-agent-manager",
+    "git:github.com/leo-alvarenga/pi-zen-frame"
   ],
   "editorPaddingX": 1,
   "terminal": {
