@@ -13,8 +13,8 @@
     "npm:pi-rtk-optimizer",
     "extensions/init-agents.ts",
     "npm:pi-web-access",
-    "git:github.com/leo-alvarenga/pi-zen-frame",
-    "git:github.com/leo-alvarenga/pi-agent-manager"
+    "git:github.com/leo-alvarenga/pi-agent-manager",
+    "git:github.com/leo-alvarenga/pi-zen-frame"
   ],
   "editorPaddingX": 1,
   "terminal": {
@@ -24,5 +24,6 @@
   "defaultThinkingLevel": "high",
   "hideThinkingBlock": false,
   "quietStartup": true,
-  "tuiMode": "fullscreen"
+  "tuiMode": "regular",
+  "fullscreenScrollbar": "always"
 }
