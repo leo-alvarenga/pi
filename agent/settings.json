@@ -1,8 +1,9 @@
 {
-  "lastChangelogVersion": "0.84.0",
   "theme": "everforest",
+  "externalEditor": "nvim",
+  "lastChangelogVersion": "0.84.0",
   "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4-pro",
+  "defaultModel": "deepseek-v4-flash",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
@@ -14,7 +15,8 @@
     "extensions/init-agents.ts",
     "npm:pi-web-access",
     "git:github.com/leo-alvarenga/pi-agent-manager",
-    "git:github.com/leo-alvarenga/pi-zen-frame"
+    "git:github.com/leo-alvarenga/pi-zen-frame",
+    "npm:@bacnh85/pi-ponytail"
   ],
   "editorPaddingX": 1,
   "terminal": {
@@ -24,6 +26,6 @@
   "defaultThinkingLevel": "high",
   "hideThinkingBlock": false,
   "quietStartup": true,
-  "tuiMode": "regular",
+  "tuiMode": "fullscreen",
   "fullscreenScrollbar": "always"
 }
