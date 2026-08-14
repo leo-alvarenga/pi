@@ -1,5 +1,5 @@
 {
-  "theme": "everforest",
+  "theme": "kanagawa",
   "externalEditor": "nvim",
   "lastChangelogVersion": "0.84.0",
   "defaultProvider": "opencode-go",
@@ -14,9 +14,11 @@
     "npm:pi-rtk-optimizer",
     "extensions/init-agents.ts",
     "npm:pi-web-access",
+    "npm:@bacnh85/pi-ponytail",
     "git:github.com/leo-alvarenga/pi-agent-manager",
-    "git:github.com/leo-alvarenga/pi-zen-frame",
-    "npm:@bacnh85/pi-ponytail"
+    "npm:@narumitw/pi-btw",
+    "npm:@tintinweb/pi-tasks",
+    "git:github.com/leo-alvarenga/pi-zen-frame"
   ],
   "editorPaddingX": 1,
   "terminal": {

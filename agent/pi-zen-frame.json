@@ -5,6 +5,15 @@
     "accentColor": "customMessageLabel"
   },
   "frame": {
-    "borderColor": "customMessageLabel"
+    "enable": true,
+    "marginTop": 1,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "borderColor": "customMessageLabel",
+
+    "prefixColor": "muted"
+  },
+  "workingMessage": {
+    "enable": true
   }
 }
