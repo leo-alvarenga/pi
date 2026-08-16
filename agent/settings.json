@@ -15,10 +15,11 @@
     "extensions/init-agents.ts",
     "npm:pi-web-access",
     "npm:@bacnh85/pi-ponytail",
-    "git:github.com/leo-alvarenga/pi-agent-manager",
     "npm:@narumitw/pi-btw",
     "npm:@tintinweb/pi-tasks",
-    "git:github.com/leo-alvarenga/pi-zen-frame"
+    "npm:@leo-alvarenga/pi-agent-manager",
+    "npm:@leo-alvarenga/pi-zen-frame",
+    "npm:@leo-alvarenga/pi-hash-edit"
   ],
   "editorPaddingX": 1,
   "terminal": {
