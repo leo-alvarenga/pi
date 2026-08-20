@@ -11,3 +11,6 @@ agent/models-store.json
 web-search-cache
 run-history*
 **/models.json
+
+web-search.json
+context-mode/

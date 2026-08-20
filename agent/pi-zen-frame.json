@@ -6,12 +6,7 @@
   },
   "frame": {
     "enable": true,
-    "marginTop": 1,
-    "paddingTop": 0,
-    "paddingBottom": 0,
-    "borderColor": "customMessageLabel",
-
-    "prefixColor": "muted"
+    "marginTop": 1
   },
   "workingMessage": {
     "enable": true

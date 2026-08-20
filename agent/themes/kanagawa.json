@@ -29,7 +29,7 @@
     "errorBg": "#3a2229"
   },
   "colors": {
-    "accent": "accent",
+    "accent": "purple",
     "border": "border",
     "borderAccent": "borderAccent",
     "borderMuted": "border",
@@ -45,7 +45,7 @@
     "userMessageText": "text",
     "customMessageBg": "element",
     "customMessageText": "text",
-    "customMessageLabel": "purple",
+    "customMessageLabel": "accent",
     "toolPendingBg": "panel",
     "toolSuccessBg": "successBg",
     "toolErrorBg": "errorBg",

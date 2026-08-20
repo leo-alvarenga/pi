@@ -16,19 +16,23 @@
     "npm:pi-web-access",
     "npm:@bacnh85/pi-ponytail",
     "npm:@narumitw/pi-btw",
-    "npm:@tintinweb/pi-tasks",
+    "npm:pi-hashline-edit-pro",
+    "npm:context-mode",
     "npm:@leo-alvarenga/pi-agent-manager",
-    "npm:@leo-alvarenga/pi-zen-frame",
-    "npm:@leo-alvarenga/pi-hash-edit"
+    "npm:@leo-alvarenga/pi-zen-frame"
   ],
   "editorPaddingX": 1,
   "terminal": {
     "showTerminalProgress": true
   },
   "enableInstallTelemetry": false,
-  "defaultThinkingLevel": "high",
+  "defaultThinkingLevel": "low",
   "hideThinkingBlock": false,
   "quietStartup": true,
   "tuiMode": "fullscreen",
-  "fullscreenScrollbar": "always"
+  "fullscreenScrollbar": "always",
+  "treeFilterMode": "all",
+  "images": {
+    "autoResize": false
+  }
 }
