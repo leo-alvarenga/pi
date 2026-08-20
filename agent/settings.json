@@ -19,7 +19,8 @@
     "npm:pi-hashline-edit-pro",
     "npm:context-mode",
     "npm:@leo-alvarenga/pi-agent-manager",
-    "npm:@leo-alvarenga/pi-zen-frame"
+    "npm:@leo-alvarenga/pi-zen-frame",
+    "npm:@leo-alvarenga/pi-todo-list"
   ],
   "editorPaddingX": 1,
   "terminal": {
