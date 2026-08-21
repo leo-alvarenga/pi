@@ -3,7 +3,7 @@
   "externalEditor": "nvim",
   "lastChangelogVersion": "0.84.0",
   "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4-flash",
+  "defaultModel": "deepseek-v4-pro",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
@@ -18,7 +18,6 @@
     "npm:@narumitw/pi-btw",
     "npm:pi-hashline-edit-pro",
     "npm:context-mode",
-    "npm:@leo-alvarenga/pi-agent-manager",
     "npm:@leo-alvarenga/pi-zen-frame",
     "npm:@leo-alvarenga/pi-todo-list"
   ],
@@ -27,7 +26,7 @@
     "showTerminalProgress": true
   },
   "enableInstallTelemetry": false,
-  "defaultThinkingLevel": "low",
+  "defaultThinkingLevel": "high",
   "hideThinkingBlock": false,
   "quietStartup": true,
   "tuiMode": "fullscreen",
