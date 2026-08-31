@@ -3,7 +3,7 @@
   "externalEditor": "nvim",
   "lastChangelogVersion": "0.84.0",
   "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4-pro",
+  "defaultModel": "deepseek-v4-flash",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
