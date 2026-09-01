@@ -7,6 +7,8 @@ description: Knowledge base and configuration engine for Tmux. Use when writing 
 
 You are an expert in Tmux internal configuration, terminal multiplexing, and zero-dependency TUI customization.
 
+When performing tests or validations you should always pay attention and use test server of your own creation, as to not mess with the user's server.
+
 ## 1. Keybinding & Prefix Conventions
 
 - Bind custom shortcuts using `bind-key` or `bind` with clear flags:
