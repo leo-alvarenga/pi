@@ -2,8 +2,8 @@
   "theme": "kanagawa",
   "externalEditor": "nvim",
   "lastChangelogVersion": "0.84.0",
-  "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4-flash",
+  "defaultProvider": "claude-bridge",
+  "defaultModel": "claude-sonnet-4-6",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
@@ -20,7 +20,9 @@
     "npm:context-mode",
     "npm:@leo-alvarenga/pi-todo-list",
     "npm:@leo-alvarenga/pi-zen-frame",
-    "npm:@leo-alvarenga/pi-mini-subagents"
+    "npm:@leo-alvarenga/pi-mini-subagents",
+    "npm:@leo-alvarenga/pi-notify",
+    "npm:pi-claude-bridge"
   ],
   "editorPaddingX": 1,
   "terminal": {
