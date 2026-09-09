@@ -3,7 +3,7 @@
   "externalEditor": "nvim",
   "lastChangelogVersion": "0.84.0",
   "defaultProvider": "claude-bridge",
-  "defaultModel": "claude-sonnet-4-6",
+  "defaultModel": "claude-opus-4-6",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
