@@ -2,8 +2,8 @@
   "theme": "kanagawa",
   "externalEditor": "nvim",
   "lastChangelogVersion": "0.84.0",
-  "defaultProvider": "claude-bridge",
-  "defaultModel": "claude-opus-4-6",
+  "defaultProvider": "deepseek",
+  "defaultModel": "deepseek-v4-flash",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
@@ -18,11 +18,12 @@
     "npm:@narumitw/pi-btw",
     "npm:pi-hashline-edit-pro",
     "npm:context-mode",
-    "npm:@leo-alvarenga/pi-todo-list",
-    "npm:@leo-alvarenga/pi-zen-frame",
-    "npm:@leo-alvarenga/pi-mini-subagents",
     "npm:@leo-alvarenga/pi-notify",
-    "npm:pi-claude-bridge"
+    "npm:pi-claude-bridge",
+    "npm:@leo-alvarenga/pi-status-broadcaster",
+    "../../personal/pi-mono/packages/pi-zen-frame",
+    "npm:@leo-alvarenga/pi-mini-subagents",
+    "npm:@leo-alvarenga/pi-todo-list"
   ],
   "editorPaddingX": 1,
   "terminal": {
