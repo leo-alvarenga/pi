@@ -1,4 +1,6 @@
 {
   "piAgentManager.next": "shift+tab",
-  "app.thinking.cycle": "ctrl+shift+t"
+  "app.thinking.cycle": "ctrl+shift+t",
+  "app.editor.external": [],
+  "tui.altScreen.searchNext": []
 }

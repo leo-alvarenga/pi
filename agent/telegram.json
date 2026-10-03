@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"default": {
+			"botToken": "8982919513:AAGBez88IT1FjUS4ca20RUKzz8zhpoJJLG0",
+			"botUsername": "pi_harness_temp_1_bot",
+			"botId": 8982919513,
+			"allowedUserId": 1378043291
+		}
+	}
+}

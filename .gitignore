@@ -4,7 +4,9 @@
 
 # Security — never commit credentials or session data
 agent/auth.json
+agent/autonomous/
 agent/sessions/
+agent/tmp/
 
 # Regenerated model catalog cache — large, noisy diff on every provider fetch
 agent/models-store.json

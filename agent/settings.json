@@ -1,9 +1,9 @@
 {
   "theme": "kanagawa",
   "externalEditor": "nvim",
-  "lastChangelogVersion": "0.84.0",
+  "lastChangelogVersion": "0.87.1",
   "defaultProvider": "deepseek",
-  "defaultModel": "deepseek-v4-flash",
+  "defaultModel": "deepseek-flash",
   "packages": [
     "npm:pi-mono-btw",
     "npm:pi-mono-clear",
@@ -23,7 +23,9 @@
     "npm:@leo-alvarenga/pi-status-broadcaster",
     "../../personal/pi-mono/packages/pi-zen-frame",
     "npm:@leo-alvarenga/pi-mini-subagents",
-    "npm:@leo-alvarenga/pi-todo-list"
+    "npm:@leo-alvarenga/pi-todo-list",
+    "npm:@llblab/pi-telegram",
+    "npm:@leo-alvarenga/pi-qol"
   ],
   "editorPaddingX": 1,
   "terminal": {
